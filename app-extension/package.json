@@ -1,0 +1,22 @@
+{
+  "name": "quasar-app-extension-todo-list",
+  "version": "0.0.1",
+  "description": "A Quasar App Extension",
+  "author": "Sonoko Hirano <sonoko@sourcedigital.net>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "homepage": "",
+  "dependencies": {
+    "quasar-ui-todo-list": "latest"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}
