@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <QTodoList />
+    <QTodoListSfc />
   </q-page>
 </template>
 

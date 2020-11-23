@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import VuePlugin from 'quasar-ui-todo-list'
+import VuePlugin from '@sourcesync/quasar-ui-tasks'
 
 Vue.use(VuePlugin)

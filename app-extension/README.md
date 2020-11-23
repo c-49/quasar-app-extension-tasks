@@ -1,13 +1,13 @@
-# Quasar App Extension todo-list
+# Quasar App Extension tasks
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-todo-list.svg?label=quasar-app-extension-todo-list)](https://www.npmjs.com/package/quasar-app-extension-todo-list)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-todo-list.svg)](https://www.npmjs.com/package/quasar-app-extension-todo-list)
+[![npm](https://img.shields.io/npm/v/@sourcesync/quasar-app-extension-tasks.svg?label=@sourcesync/quasar-app-extension-tasks)](https://www.npmjs.com/package/@sourcesync/quasar-app-extension-tasks)
+[![npm](https://img.shields.io/npm/dt/@sourcesync/quasar-app-extension-tasks.svg)](https://www.npmjs.com/package/@sourcesync/quasar-app-extension-tasks)
 
 # Install
 ```bash
-quasar ext add todo-list
+quasar ext add tasks
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
@@ -17,7 +17,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 
 # Uninstall
 ```bash
-quasar ext remove todo-list
+quasar ext remove tasks
 ```
 
 # Info

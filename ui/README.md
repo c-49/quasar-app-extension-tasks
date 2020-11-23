@@ -1,7 +1,7 @@
 # Component QTodoList
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-todo-list.svg?label=quasar-ui-todo-list)](https://www.npmjs.com/package/quasar-ui-todo-list)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-todo-list.svg)](https://www.npmjs.com/package/quasar-ui-todo-list)
+[![npm](https://img.shields.io/npm/v/quasar-ui-tasks.svg?label=quasar-ui-tasks)](https://www.npmjs.com/package/quasar-ui-tasks)
+[![npm](https://img.shields.io/npm/dt/quasar-ui-tasks.svg)](https://www.npmjs.com/package/quasar-ui-tasks)
 
 # Component QTodoList
 > Short description of the component
@@ -19,8 +19,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-todo-list'
-import 'quasar-ui-todo-list/dist/index.css'
+import Plugin from 'quasar-ui-tasks'
+import 'quasar-ui-tasks/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -28,10 +28,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-todo-list/dist/index.css"></style>
+<style src="quasar-ui-tasks/dist/index.css"></style>
 
 <script>
-import { Component as QTodoList } from 'quasar-ui-todo-list'
+import { Component as QTodoList } from 'quasar-ui-tasks'
 
 export default {
   components: {
@@ -45,8 +45,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-todo-list'
-import 'quasar-ui-todo-list/dist/index.css'
+import Plugin from 'quasar-ui-tasks'
+import 'quasar-ui-tasks/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -54,10 +54,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-todo-list/dist/index.css"></style>
+<style src="quasar-ui-tasks/dist/index.css"></style>
 
 <script>
-import { Component as QTodoList } from 'quasar-ui-todo-list'
+import { Component as QTodoList } from 'quasar-ui-tasks'
 
 export default {
   components: {
@@ -76,16 +76,16 @@ Add the following tag(s) after the Quasar ones:
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-todo-list/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-tasks/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-todo-list/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-tasks/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-todo-list/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/quasar-ui-tasks/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup
