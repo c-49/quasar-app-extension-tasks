@@ -129,4 +129,4 @@ If you have a component that has assets, like language or icon-sets, you will ne
 If you appreciate the work that went into this, please consider [donating to Quasar](https://donate.quasar.dev).
 
 # License
-MIT (c) Sonoko Hirano <sonoko@sourcedigital.net>
+MIT (c) Source Digital

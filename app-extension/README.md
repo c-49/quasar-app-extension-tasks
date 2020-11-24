@@ -30,4 +30,4 @@ quasar ext remove tasks
 If you appreciate the work that went into this App Extension, please consider [donating to Quasar](https://donate.quasar.dev).
 
 # License
-MIT (c) Sonoko Hirano <sonoko@sourcedigital.net>
+MIT (c) Source Digital
