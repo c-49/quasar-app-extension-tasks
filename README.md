@@ -1,5 +1,5 @@
-<img src="https://img.shields.io/npm/v/quasar-ui-todo-list.svg?label=quasar-ui-todo-list">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-todo-list.svg?label=quasar-app-extension-todo-list">
+<img src="https://img.shields.io/npm/v/@sourcesync/quasar-ui-todo-list.svg?label=@sourcesync/quasar-ui-todo-list">
+<img src="https://img.shields.io/npm/v/@sourcesync/quasar-app-extension-todo-list.svg?label=@sourcesync/quasar-app-extension-todo-list">
 
 # Structure
 * [/ui](ui) - standalone npm package

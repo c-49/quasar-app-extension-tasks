@@ -1,5 +1,5 @@
 {
-  "name": "quasar-ui-todo-list",
+  "name": "@sourcesync/quasar-ui-todo-list",
   "version": "0.0.1",
   "author": "Sonoko Hirano <sonoko@sourcedigital.net>",
   "description": "QTodoList - Todo List for Quasar App",

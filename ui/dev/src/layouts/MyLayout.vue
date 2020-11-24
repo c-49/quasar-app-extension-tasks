@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-todo-list v{{ version }}
+          @sourcesync/quasar-ui-todo-list v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

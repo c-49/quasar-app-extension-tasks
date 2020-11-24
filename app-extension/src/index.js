@@ -8,13 +8,13 @@
 
 function extendConf (conf) {
   // register our boot file
-  conf.boot.push('~quasar-app-extension-todo-list/src/boot/register.js')
+  conf.boot.push('~@sourcesync/quasar-app-extension-todo-list/src/boot/register.js')
 
   // make sure app extension files & ui package gets transpiled
-  conf.build.transpileDependencies.push(/quasar-app-extension-todo-list[\\/]src/)
+  conf.build.transpileDependencies.push(/@sourcesync[\\/]quasar-app-extension-todo-list[\\/]src/)
 
   // make sure the stylesheet goes through webpack to avoid SSR issues
-  conf.css.push('~quasar-ui-todo-list/src/index.sass')
+  conf.css.push('~@sourcesync/quasar-ui-todo-list/src/index.sass')
 }
 
 module.exports = function (api) {
@@ -25,7 +25,7 @@ module.exports = function (api) {
   api.compatibleWith('@quasar/app', '^1.1.0 || ^2.0.0')
 
   // Uncomment the line below if you provide a JSON API for your component
-  // api.registerDescribeApi('QTodoList', '~quasar-ui-todo-list/src/components/QTodoList.json')
+  // api.registerDescribeApi('QTodoList', '~@sourcesync/quasar-ui-todo-list/src/components/QTodoList.json')
 
   // We extend /quasar.conf.js
   api.extendQuasarConf(extendConf)

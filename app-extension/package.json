@@ -1,5 +1,5 @@
 {
-  "name": "quasar-app-extension-todo-list",
+  "name": "@sourcesync/quasar-app-extension-todo-list",
   "version": "0.0.1",
   "description": "A Quasar App Extension",
   "author": "Sonoko Hirano <sonoko@sourcedigital.net>",
@@ -12,7 +12,7 @@
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "quasar-ui-todo-list": "latest"
+    "@sourcesync/quasar-ui-todo-list": "latest"
   },
   "engines": {
     "node": ">= 8.9.0",
