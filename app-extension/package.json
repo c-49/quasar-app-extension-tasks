@@ -5,6 +5,10 @@
   "author": "Sonoko Hirano <sonoko@sourcedigital.net>",
   "license": "MIT",
   "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "lint-fix": "eslint --ext .js,.vue src --fix"
+  },
   "repository": {
     "type": "git",
     "url": ""
@@ -12,10 +16,17 @@
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "@sourcesync/quasar-ui-todo-list": "latest"
+    "@sourcesync/quasar-ui-todo-list": "^0.0.1"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^7.1.0"
   },
   "engines": {
-    "node": ">= 8.9.0",
+    "node": ">= 10.12.0",
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
   }
